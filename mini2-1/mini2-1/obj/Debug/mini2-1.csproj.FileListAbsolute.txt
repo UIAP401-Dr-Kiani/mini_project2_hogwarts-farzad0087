@@ -5,3 +5,10 @@ C:\Users\Iranian\source\repos\mini2-1\mini2-1\obj\Debug\mini2-1.csprojAssemblyRe
 C:\Users\Iranian\source\repos\mini2-1\mini2-1\obj\Debug\mini2-1.csproj.CoreCompileInputs.cache
 C:\Users\Iranian\source\repos\mini2-1\mini2-1\obj\Debug\mini2-1.exe
 C:\Users\Iranian\source\repos\mini2-1\mini2-1\obj\Debug\mini2-1.pdb
+C:\Users\Iranian\source\repos\mini_project2_hogwarts-farzad0087\mini2-1\mini2-1\bin\Debug\mini2-1.exe.config
+C:\Users\Iranian\source\repos\mini_project2_hogwarts-farzad0087\mini2-1\mini2-1\bin\Debug\mini2-1.exe
+C:\Users\Iranian\source\repos\mini_project2_hogwarts-farzad0087\mini2-1\mini2-1\bin\Debug\mini2-1.pdb
+C:\Users\Iranian\source\repos\mini_project2_hogwarts-farzad0087\mini2-1\mini2-1\obj\Debug\mini2-1.csprojAssemblyReference.cache
+C:\Users\Iranian\source\repos\mini_project2_hogwarts-farzad0087\mini2-1\mini2-1\obj\Debug\mini2-1.csproj.CoreCompileInputs.cache
+C:\Users\Iranian\source\repos\mini_project2_hogwarts-farzad0087\mini2-1\mini2-1\obj\Debug\mini2-1.exe
+C:\Users\Iranian\source\repos\mini_project2_hogwarts-farzad0087\mini2-1\mini2-1\obj\Debug\mini2-1.pdb

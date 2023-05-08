@@ -8,10 +8,10 @@ namespace mini2_1
 {
     class Dumbledor:Authorized_Person
     {
+       
         public static void DunbledorePortablePrint()
         {
             Console.WriteLine("1-Send Letter\t 2-Exit \t 3-Add Student");
-
         }
         public static void DumbledorPortable()
         {
@@ -29,24 +29,28 @@ namespace mini2_1
             }
             if(TashkisDumbledor=="3")
             {
-
+                Train.AddStudent();
             }
         }
 
-        public static void AddStudent()
+       
+
+
+        static public void printf()
         {
-            string NameOfStudent = Console.ReadLine();
-            for (int i = 0; i < 300; i++)
-            {
-                if (NameOfStudent==Human.NameOfHuman[i])
-                {
-                    Console.WriteLine("Hi dear {0}",Human.NameOfHuman[i]);
-                }
-}
+            /* for (int i = 0; i < 300; i++)
+             {
+                 if (std1[i].Leter[0] != null)
+                 {
+
+                     Console.WriteLine(std1[i].Leter[0]);
+                     Console.WriteLine("-------------------------------------------------------------");
+                 }
+             }*/
+            Console.WriteLine(Authorized_Person.baggage[0]);
         }
 
-
-
+        
 
     }
 }
