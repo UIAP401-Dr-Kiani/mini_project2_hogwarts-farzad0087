@@ -18,7 +18,7 @@ namespace mini2_1
 
         public static void PrintPortableOfTeacher()
         {
-            Console.WriteLine("1-Addunit");
+            Console.WriteLine("1-Addunit\n2-watch units\n3-score");
         }
         public static void PortableOfTeacher()
         {
@@ -27,10 +27,17 @@ namespace mini2_1
             {
                 Lesson.ChooseUnit();
             }
-            
-        }
-       
+            if (Portable == "2")
+            {
+                Lesson.PrintlistOfStudentForTeacher();
+            }
+            if(Portable=="3")
+            {
+                Student.PointOfLesson();
+            }
 
+        }
+      
 
 
 

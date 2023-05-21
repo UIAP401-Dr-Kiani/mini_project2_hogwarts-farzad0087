@@ -26,8 +26,9 @@ namespace mini2_1
             if (CheckTrain ==true)
             {
                 
-                Student.SendNameOfStudent(i);
+                Student.SendInformationOfStudent(i);
                 Console.WriteLine("Have a good trip");
+               
             }
             if (CheckTrain == false)
             {
@@ -102,7 +103,7 @@ namespace mini2_1
         
         public static void StudentAddStudent()
         {
-            Console.WriteLine("Please enter your username");
+            Console.WriteLine("Please enter your name");
             String Username = Console.ReadLine();
            // Console.WriteLine("Please enter your password");
            // String Password = Console.ReadLine();
@@ -112,12 +113,23 @@ namespace mini2_1
                 {
                     //if (Password == Human.PasswordOfHuman[i])
                     //{
-
+                    if (std1[i].Ticket[0] != null)
+                    {
                         Console.WriteLine(std1[i].Ticket[0]);
-                    Console.WriteLine("-------------------------------------------------------------");
-                    Train.CheckGo(i);
-                        
+                        Human.Print();
+                        Room.Kind(Username);
                         Console.WriteLine("-------------------------------------------------------------");
+                        Train.CheckGo(i);
+
+                        Console.WriteLine("-------------------------------------------------------------");
+                    }
+                    else
+                    {
+                        Console.WriteLine("sorry you dont have ticket");
+                        Student.PrintStudentPortable();
+                        Student.StudentPortable();
+                        Console.WriteLine("-------------------------------------------------------------");
+                    }
                         
 
                    // }

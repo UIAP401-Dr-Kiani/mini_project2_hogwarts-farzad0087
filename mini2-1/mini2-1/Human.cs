@@ -25,6 +25,7 @@ namespace mini2_1
         static IList<string> StudentLIst = new List<string>();
         public Human()
         {
+            
             Train.BuildStudent();
             Human.SendInformationOfTeacher();
             Lesson.BuildTeacher();
@@ -56,25 +57,30 @@ namespace mini2_1
             Sethuman1++;
             
         }
-        public static void SendNameOfStudent(int i)
+        public static void SendInformationOfStudent(int i)
         {
            
-            for (int y = 0; y < 300; y++)
-            {
-                
+            
                 if (Human.RoleOfHuman[i] == "student")
                 {
-                    if (Human.NameOfHuman[i]!=Student.NameOfStudent[y])
-                    {
-                        Student.NameOfStudent[x] = Human.NameOfHuman[i];
-                        //Student.FamilyOfStudent[x]= Human.FamilyOfHuman[i];
+                    
+                        
+                        Student.NameOfStudent[x] = NameOfHuman[i];
+                        Student.FamilyOfStudent[x] = FamilyOfHuman[i];
+                        Student.DateOfStudent[x] = DateOfBirthday[i];
+                        Student.GenderOfStudent[x] = GenderOfHuman[i];
+                        Student.FatherNameOfStudent[x] = FatherNameOfHuman[i];
+                        Student.UserNameOfStudent[x] = UserNameOfHuman[i];
+                        Student.PasswordOfStudent[x] = PasswordOfHuman[i];
+                        Student.RoleOfStudent[x] = RoleOfHuman[i];
                         x++;
                        
-                    }
+                   
+                    
                    
                     
                     
-                }
+               
             }
             }
         public static void SendInformationOfTeacher()
@@ -91,6 +97,11 @@ namespace mini2_1
 
                 }
             }
+        }
+      
+        public static void Print()
+        {
+            Console.WriteLine("-------------------------------------------------------------");
         }
 
 

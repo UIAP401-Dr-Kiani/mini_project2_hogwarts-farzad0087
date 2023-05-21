@@ -29,7 +29,7 @@ namespace mini2_1
             Console.WriteLine("                                             Welcome to hugward");
             Console.WriteLine("Please choose one:");
             Console.WriteLine();
-            Console.WriteLine("Student(s)\t          Teacher(t)\t        Dumbledor(d)");
+            Console.WriteLine("Student(s)\t          Teacher(t)\t        Dumbledor(d)\t          Occultism(o)");
         }
         static public void Tashkis()
         {
@@ -49,6 +49,11 @@ namespace mini2_1
             {
                 Dumbledor.DunbledorePortablePrint();
                 Dumbledor.DumbledorPortable();
+            }
+            if(Tashkis=="o")
+            {
+                Occultism.PrintoccultismPortble();
+                Occultism.Occultimportable();
             }
 
         }

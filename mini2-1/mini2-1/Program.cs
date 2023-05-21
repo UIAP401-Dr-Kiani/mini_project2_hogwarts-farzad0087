@@ -42,9 +42,14 @@ namespace mini2_1
                 }
                 file.Close();
             }
+            
+            
+            Student.Build();
             Human h1 = new Human();
+             
             Console.WriteLine("Main thread: starting a timer");
             Timer t = new Timer(ComputeBoundOp, 5, 0, 30000);
+            Timer d = new Timer(ComputeBoundUp, 5, 0, 10000);
 
             Console.WriteLine("Main thread: Doing other work here...");
                 while (true)
@@ -60,8 +65,12 @@ namespace mini2_1
             Train.Timetrain3();
             Train.CheckTrainInt ++;
             }
-           
-        }
+            private static void ComputeBoundUp(Object state)
+            {
+            Occultism.TimerOfOccultism();
+            }
+
+    }
        
        
     }
